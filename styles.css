@@ -1,0 +1,17 @@
+
+
+h1 {
+    color:mediumaquamarine;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: indianred;
+}
+.menu-bar {
+    display:flex;
+    gap: 500px;
+    background-color: coral;
+}
+.link-directory {
+    font-size: 40px;
+}
