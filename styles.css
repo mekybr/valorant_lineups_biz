@@ -23,6 +23,7 @@ body {
     flex:1 0 2px;
     color:mediumaquamarine;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
 }
 
     
@@ -30,18 +31,18 @@ body {
 .logo {
     height: 32px;
     width: 60px;
-    padding:5px
+    padding:5;
    
-   align-self: center;
+   align-self:center;
  
    
 }
 .link-directory {
-    align-items: center;
-    padding-right: 30px;
+    justify-content: left;
     flex:0 1 auto;
     font-size: 40px;
-    
+    padding:3px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 .link-directory a {
