@@ -3,20 +3,21 @@
 * {
     margin: 0;
     padding: 0;
+    width:100%;
    }
 
 
 
 
 body {
-    background-color: indianred;
+    background-color:rebeccapurple;
 }
 .menu-bar {
     display:flex;
     flex-direction: row;
-    
     background-color:crimson;
     width: auto;
+    justify-content: space-between;
 }
     
 .heading {
@@ -38,14 +39,29 @@ body {
    
 }
 .link-directory {
-    justify-content: left;
+    
     flex:0 1 auto;
     font-size: 40px;
     padding:3px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Garamond';
+    gap: 10cm;
+    
     
 }
 .link-directory a {
-    color:lavender;
+    color:plum;
     text-decoration: none;
+     padding-right: px;
+    
+}
+
+.below-menu {
+    display:flex;
+
+    
+}
+.main-img {
+    height:400px;
+    width:400px;
+    
 }
