@@ -103,3 +103,16 @@ body {
     background-color: lavenderblush;
 
 }
+.members {
+    display:flex;
+    padding-top:5vh;
+}
+.members figure{
+    padding:2vw;
+    color:hotpink;
+    
+}
+.members strong{
+    color:limegreen;
+}
+
