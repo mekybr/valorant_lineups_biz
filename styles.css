@@ -12,6 +12,11 @@
 
 body {
     background-color:rebeccapurple;
+    background-image: url("https://www.nsbpictures.com/wp-content/uploads/2020/11/star-background-1.png");
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 .menu-bar {
     display:flex;
@@ -75,6 +80,7 @@ body {
     display:flex;
     border:5cm;
     margin-right:5cm;
+   
     
 
     
@@ -100,7 +106,9 @@ body {
 
 }
 .mainbody p{
-    background-color: lavenderblush;
+    background-color:tan;
+    border-radius: 15px;
+    padding:1vw;
 
 }
 .members {
@@ -109,10 +117,23 @@ body {
 }
 .members figure{
     padding:2vw;
-    color:hotpink;
+    color:rgb(71, 182, 197);
+    font-size: 2vw;
     
 }
 .members strong{
     color:limegreen;
 }
-
+.testimonial{
+    background-color: cadetblue;
+    color:darkred;
+    font-size: 3vw;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg");
+    border-radius: 25px;
+}
+.register{
+    display: flex;
+    padding-top: 5vh;
+    font-size: 2.5vw;
+    background-image:url();
+}
