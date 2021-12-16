@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     width:100%;
+
    }
 
 
@@ -17,7 +18,10 @@ body {
     flex-direction: row;
     background-color:crimson;
     width: auto;
-    justify-content: space-between;
+    justify-content: right;
+    align-items: flex-end;
+    overflow: hidden;
+    white-space: nowrap;
 }
     
 .heading {
@@ -25,6 +29,7 @@ body {
     color:mediumaquamarine;
     font-family:Georgia, 'Times New Roman', Times, serif;
     align-self: center;
+    margin-right: auto;
 }
 
     
@@ -35,6 +40,7 @@ body {
     padding:5;
    
    align-self:center;
+   margin-right: auto;
  
    
 }
@@ -45,23 +51,37 @@ body {
     padding:3px;
     font-family:'Garamond';
     gap: 10cm;
-    
+    margin-left:auto;
+    text-align: right;
+    margin-right: 0.6cm;
+
     
 }
 .link-directory a {
     color:plum;
     text-decoration: none;
-     padding-right: px;
+    padding-left: 0.25cm;
+    padding-right: 0.25cm;
     
+}
+.link-directory a:hover {
+    color:cadetblue;
+    background-color:coral;
+
 }
 
 .below-menu {
     display:flex;
 
+
     
 }
 .main-img {
-    height:400px;
-    width:400px;
+    height:100%;
+    width:100%;
+    padding-left: 5vw;
+    padding-right:10vw;
+   
+    
     
 }
