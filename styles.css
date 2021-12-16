@@ -137,3 +137,19 @@ body {
     font-size: 2.5vw;
     background-image:url();
 }
+button{
+    background-color:thistle;
+    height:7vh;
+    width:7vw;
+
+}
+.agent-button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.register p{
+    padding-bottom: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:salmon;
+}
